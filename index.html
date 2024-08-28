@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paint Studio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Studio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="toolbar">
-        <button id="saveButton">Save</button>
-        <button id="loadButton">Load</button>
-        <button id="clearButton">Clear</button>
-        <label for="brushSize">Brush Size:</label>
-        <input type="number" id="brushSize" value="5" min="1" max="50">
-        <label for="brushShape">Brush Shape:</label>
-        <select id="brushShape">
-            <option value="round">Round</option>
-            <option value="square">Square</option>
-            <option value="star">Star</option>
-        </select>
-    </div>
-    <canvas id="paintCanvas" width="800" height="600"></canvas>
-    <script src="paint-studio.js"></script>
+  <header>
+    <h1>Welcome to the Art Studio</h1>
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+      <a href="studio.html">Start Drawing</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>Welcome to the Art Studio! Create and save your artwork.</p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Draw with various tools</li>
+        <li>Save your art and come back later</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Art Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
