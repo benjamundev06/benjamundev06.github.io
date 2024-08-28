@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="toolbar">
+        <button id="saveButton">Save</button>
+        <button id="loadButton">Load</button>
+        <button id="clearButton">Clear</button>
+        <label for="brushSize">Brush Size:</label>
+        <input type="number" id="brushSize" value="5" min="1" max="50">
+        <label for="brushShape">Brush Shape:</label>
+        <select id="brushShape">
+            <option value="round">Round</option>
+            <option value="square">Square</option>
+            <option value="star">Star</option>
+        </select>
+    </div>
+    <canvas id="paintCanvas" width="800" height="600"></canvas>
+    <script src="paint-studio.js"></script>
+</body>
+</html>
