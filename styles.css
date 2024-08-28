@@ -1,53 +1,32 @@
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Canvas Styles */
-#paintCanvas {
-    border: 1px solid #ccc;
-    background-color: #fff;
-    display: block;
-    margin: 20px auto;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
 
-/* Toolbar Styles */
-#toolbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    padding: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
 }
 
-/* Toolbar Button Styles */
-#toolbar button, #toolbar input, #toolbar select {
-    background-color: #555;
-    border: none;
-    color: #fff;
-    padding: 10px;
-    margin: 0 5px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+main {
+  padding: 1rem;
 }
 
-#toolbar button:hover, #toolbar input:hover, #toolbar select:hover {
-    background-color: #777;
-}
-
-#toolbar button:active, #toolbar input:active, #toolbar select:active {
-    background-color: #999;
-}
-
-#toolbar button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-    color: #666;
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
